@@ -21,13 +21,13 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'ShiraoriBOT Multi device'
-global.author = 'Ilman'
+global.packname = 'BOTKINGDOM'
+global.author = '♥'
 
-global.wm = '© ShiraoriBOT-Md Made by Ilman'
+global.wm = 'BOTKINGDOM MAIN GROUP'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 
-global.wait = '_*tunggu sedang di proses...*_'
+global.wait = '_*WAIT BRO...*_'
 global.eror = '_*Server Error*_'
 
 global.multiplier = 69 // The higher, The harder levelup
