@@ -312,7 +312,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
            locationMessage: { 
 
-           jpegThumbnail: fs.readFileSync('./meadia/esce.jpg') },
+           jpegThumbnail: fs.readFileSync('./media/esce.jpg') },
 
            hydratedFooterText: wm,
 
