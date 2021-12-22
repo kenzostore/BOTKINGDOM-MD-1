@@ -17,7 +17,7 @@ ${text}
 }
 handler.help = ['image <query>']
 handler.tags = ['internet']
-handler.command = /^(gimage|image)$/i
+handler.command = /^(gimage|img)$/i
 
 module.exports = handler
 
