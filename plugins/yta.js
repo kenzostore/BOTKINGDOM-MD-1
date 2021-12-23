@@ -1,4 +1,4 @@
-let limit = 300
+let limit = 105
 
 const { servers, yta } = require('../lib/y2mate')
 
