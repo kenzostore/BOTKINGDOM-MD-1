@@ -67,6 +67,11 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.antiLink = isEnable
 
       break
+      case 'document':
+
+      chat.useDocument = isEnable
+
+      break
 
     case 'publik':
 
