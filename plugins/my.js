@@ -22,8 +22,8 @@ let anu = `╭───❑ 「 BALANCE 」 ❑────
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               displayText: '💠 MY SITE',
+               url: 'supuna.ml'
              }
 
            },
