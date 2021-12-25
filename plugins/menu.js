@@ -8,7 +8,7 @@ let levelling = require('../lib/levelling')
 
 let tags = {
 
-  'main': 'MENU UTAMA',
+  'main': 'MENU ALL',
 
   'game': 'MENU GAME',
 
@@ -312,7 +312,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
            locationMessage: { 
 
-           jpegThumbnail: fs.readFileSync('./media/newyear.jpg') },
+           jpegThumbnail: fs.readFileSync('./media/menu.jpg') },
 
            hydratedFooterText: wm,
 
