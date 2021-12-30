@@ -12,7 +12,7 @@ res = await mediafireDl(mdjon)
 
 result = `「 *MEDIAFIRE DOWNLOAD* 」
 
-*Data Berhasil Didapatkan!*
+*ඔබගේ ගොනුව පිලිබද තොරතුරු*
 
 🆔 Nama : ${res[0].nama}
 
