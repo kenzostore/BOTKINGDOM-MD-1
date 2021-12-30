@@ -14,7 +14,7 @@ memeq = Math.floor(Math.random() * 99999999)
 let buttons = [
   {buttonId: '/yta '+vid.url, buttonText: {displayText: 'සින්දුව 🎵'}, type: 1},
   {buttonId: '/ytv '+vid.url, buttonText: {displayText: 'වීඩියෝව 📼'}, type: 1},
-{buttonId: '/cancel '+vid.videoId+memeq, buttonText: {displayText: 'ඩිලීට් 🗑️'}, type: 1}
+{buttonId: '/ytk '+vid.url, buttonText: {displayText: 'වීඩියෝව 720P🎈'}, type: 1},
 ]
 
 
