@@ -29,7 +29,7 @@ let sendMsg =  await conn.sendMessage(m.chat, buttonsMessage)
 }
 handler.help = ['song'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = /^(play|song)$/i
+handler.command = /^(play2|song2)$/i
 
 handler.exp = 0
 handler.limit = false
