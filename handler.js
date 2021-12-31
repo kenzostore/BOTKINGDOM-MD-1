@@ -418,7 +418,7 @@ module.exports = {
                                 console.error(e)
                             }
                         }
-                        if (m.limit) m.reply(+ m.limit + 'WAIT BRO')
+                        if (m.limit) m.reply(+ m.limit + 'Please wait')
                     }
                     break
                 }
