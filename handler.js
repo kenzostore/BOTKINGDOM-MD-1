@@ -389,8 +389,6 @@ module.exports = {
                             } catch (e) {
                                 console.error(e)
                             }
-                        }
-                        if (m.limit) m.reply(+'🌝')
                     }
                     break
                 }
