@@ -10,7 +10,7 @@ let fetch = require('node-fetch')
 
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 
-  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} california`
+  if (!text) throw `නමක් 😒?\n\උදාහරණ:\n${usedPrefix + command} සදරු අයියෙ`
 
   let chat = global.db.data.chats[m.chat]
 
@@ -104,7 +104,7 @@ ${vid.url}
 
                displayText: 'VIDEO',
 
-               id: `.ytmp4 ${vid.url}`,
+               id: `.ytv ${vid.url}`,
 
              }
 
