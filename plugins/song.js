@@ -58,7 +58,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
 let anu =  `
 
-*Judul:* ${title}
+*TITLE:* ${title}
 
 *Audio:* ${filesizeF}
 
@@ -142,11 +142,11 @@ ${vid.url}
 
 }
 
-handler.help = ['play'].map(v => v + ' <pencarian>')
+handler.help = ['song'].map(v => v + ' <pencarian>')
 
 handler.tags = ['downloader']
 
-handler.command = /^(p|play)$/i
+handler.command = /^(video|song)$/i
 
 handler.exp = 0
 
