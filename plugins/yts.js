@@ -17,7 +17,7 @@ Duration: ${v.timestamp}
 Uploaded ${v.ago}
 ${v.views} views
       `.trim(),
-          "rowId": `/yta${v.url}`
+          "rowId": `.song${v.url}`
         }
       ]
     })
