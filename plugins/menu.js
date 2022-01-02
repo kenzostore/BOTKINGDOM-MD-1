@@ -80,9 +80,9 @@ const defaultMenu = {
 
 ╰❑
 
-╭─❑ 「 INFORMASI 」 ❑──
+╭─❑ 「 BOTKINGDOM 」 ❑──
 
-│ TESTING MODE
+│ https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
 
 ╰❑
 
