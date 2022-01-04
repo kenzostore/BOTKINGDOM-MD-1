@@ -98,7 +98,7 @@ OWNER IS SUPUNA
 
 }
 
-handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
+handler.customPrefix = /^(bot|alive|good night|good morning|hi|mk|good morning|ko)$/i // ketik bot (tanpa prefix)
 
 handler.command = /^alive$/i
 
