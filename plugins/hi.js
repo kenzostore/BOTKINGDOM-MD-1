@@ -160,7 +160,7 @@ function gambar() {
 
   if (time >= 4) {
 
-    res = fs.readFileSync('./media/morning.jpg')
+    res = fs.readFileSync('./media/gm.jpg')
 
   }
 
@@ -178,7 +178,7 @@ function gambar() {
 
   if (time >= 18) {
 
-    res = fs.readFileSync('./media/night.jpg')
+    res = fs.readFileSync('./media/gn.jpg')
 
   }
 
