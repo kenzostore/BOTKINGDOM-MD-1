@@ -84,7 +84,7 @@ global.packname = 'BOT KINGDOM'
 
 global.author = '❤️'
 
-global.wm = '❤️'
+global.wm = 'ＢＯＴ ＫＩＮＧＤＯＭ'
 
 global.media = 'https://telegra.ph/file/4475cfb321abebedc758d.jpg'
 
