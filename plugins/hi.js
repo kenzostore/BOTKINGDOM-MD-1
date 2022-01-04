@@ -58,9 +58,9 @@ OWNER IS SUPUNA
 
              urlButton: {
 
-               displayText: '📍instagram',
+               displayText: '📍MY SIYE',
 
-               url: instagram
+               url: 'www.suspuna.ml'
 
              }
 
