@@ -58,9 +58,9 @@ OWNER IS SUPUNA
 
              urlButton: {
 
-               displayText: '📍MY SIYE',
+               displayText: '📍FOLLOW ME',
 
-               url: 'www.suspuna.ml'
+               url: 'https://www.instagram.com/supun808/'
 
              }
 
