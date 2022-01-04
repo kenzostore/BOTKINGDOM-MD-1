@@ -98,7 +98,7 @@ OWNER IS SUPUNA
 
 }
 
-handler.customPrefix = /^alive$/i // ketik bot (tanpa prefix)
+handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
 
 handler.command = new RegExp
 
