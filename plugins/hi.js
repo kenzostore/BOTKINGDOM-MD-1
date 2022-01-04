@@ -100,6 +100,8 @@ OWNER IS SUPUNA
 
 handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
 
+handler.command = /^alive$/i
+
 handler.command = new RegExp
 
 handler.owner = false
