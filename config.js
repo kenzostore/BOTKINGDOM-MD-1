@@ -80,8 +80,6 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 
-global.stiker_wait = 'සාදමින් පවතී
-
 global.packname = 'BOT KINGDOM'
 
 global.author = '❤️'
