@@ -32,7 +32,7 @@ let handler = async(m, { conn, args, isPrems, isOwner }) => {
 
 `.trim(), m, null, {
 
-        asDocument:true
+        asDocument: chat.useDocument, mimetype: 'audio/mp4'
 
     })
 
