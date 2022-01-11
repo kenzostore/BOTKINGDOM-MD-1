@@ -10,7 +10,7 @@ let handler = async(m, { conn, text }) => {
 
   await m.reply('Searching...')
 
-    let res = await fetch(`https://api.dhnjing.xyz/api/apk/happymod?apps=${text}&apikey=ac2b8e84eee24a3e7000`)
+    let res = await fetch(`https://api.dhnjing.xyz/api/apk/happymod?apps=${text}&apikey=5a84e26841a1d6c06392`)
 
     let json = await res.json()
 
