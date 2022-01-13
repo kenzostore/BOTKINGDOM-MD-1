@@ -168,10 +168,10 @@ module.exports = {
                 if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
                 if (chat) {
                     if (!('isBanned' in chat)) chat.isBanned = false
-                    if (!('welcome' in chat)) chat.welcome = false
+                    if (!('welcome' in chat)) chat.welcome = true
                     if (!('detect' in chat)) chat.detect = false
-                    if (!('sWelcome' in chat)) chat.sWelcome = ''
-                    if (!('sBye' in chat)) chat.sBye = ''
+                    if (!('sWelcome' in chat)) chat.sWelcome = 'හෙලෝ @user'
+                    if (!('sBye' in chat)) chat.sBye = 'බායි @user'
                     if (!('sPromote' in chat)) chat.sPromote = ''
                     if (!('sDemote' in chat)) chat.sDemote = ''
                     if (!('delete' in chat)) chat.delete = true
