@@ -1,1 +1,1 @@
-worker : npm i ffmpeg && npm start
+web: node . --db 'mongodb+srv://king:king@cluster0.bghgr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
