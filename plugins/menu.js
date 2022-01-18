@@ -88,11 +88,11 @@ const defaultMenu = {
 
 %readmore`.trimStart(),
 
-  header: '╭────ꕥ %category 」',
+  header: '╭────⫹⫺ %category 」',
 
-  body: '│✾ %cmd %islimit %isPremium',
+  body: '│⫹⫺ %cmd %islimit %isPremium',
 
-  footer: '╰─ꕥ\n',
+  footer: '╰─⫹⫺\n',
 
   after: `
 
