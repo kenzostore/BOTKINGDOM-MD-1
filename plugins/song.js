@@ -104,7 +104,7 @@ ${vid.url}
 
                displayText: 'VIDEO',
 
-               id: `.ytv ${vid.url}`,
+               id: `.ytmp4 ${vid.url}`,
 
              }
 
