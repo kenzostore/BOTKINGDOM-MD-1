@@ -48,7 +48,7 @@ handler.help = ['ytmp3','a'].map(v => 'yt' + v + ' <url>')
 
 handler.tags = ['downloader']
 
-handler.command = /^yt(a|mp3)$/i
+handler.command = /^yt(a|a)$/i
 
 handler.owner = false
 
