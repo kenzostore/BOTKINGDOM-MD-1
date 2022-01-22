@@ -82,7 +82,7 @@ const defaultMenu = {
 
 ╭─❑ 「 BOTKINGDOM 」 ❑──
 
-│ https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
+│ https://chat.whatsapp.com/HMP5qlrwGgv69C5wT0A9U4
 
 ╰❑
 
