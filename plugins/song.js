@@ -146,7 +146,7 @@ handler.help = ['song'].map(v => v + ' <pencarian>')
 
 handler.tags = ['downloader']
 
-handler.command = /^(video|song)$/i
+handler.command = /^(video|yt)$/i
 
 handler.exp = 0
 
