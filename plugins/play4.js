@@ -108,7 +108,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                    quickReplyButton: {
 
-                        displayText: `🎵 Audio`,
+                        displayText: `🎵 Audio ${filesizeF}`,
 
                         id: `.ytmp3 ${vid.url}`
 
@@ -118,7 +118,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                    quickReplyButton: {
 
-                        displayText: `📽 Video`,
+                        displayText: `📽 Video ${yt2.filesizeF}`,
 
                         id: `.ytmp4 ${vid.url}`
 
@@ -128,9 +128,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                     quickReplyButton: {
 
-                        displayText: `🔎 YT Search ${text}`,
+                        displayText: `📽 Video720P`,
 
-                        id: `.yts ${text}`
+                        id: `.yt720 ${vid.url}`
 
                     },
 
