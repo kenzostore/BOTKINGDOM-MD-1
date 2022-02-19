@@ -110,7 +110,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                         displayText: `🎵 Audio ${filesizeF}`,
 
-                        id: `.ytmp3 ${vid.url}`
+                        id: `.yta ${vid.url}`
 
                     }
 
@@ -120,7 +120,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                         displayText: `📽 Video ${yt2.filesizeF}`,
 
-                        id: `.ytmp4 ${vid.url}`
+                        id: `.ytv ${vid.url}`
 
                     }
 
