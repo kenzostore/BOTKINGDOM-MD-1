@@ -18,7 +18,7 @@ let handler = async(m, { conn, args, isPrems, isOwner }) => {
 
     conn.reply(m.chat, wait, m)
 
-    if (!isLimit) await sock.sendMessage(m.chat, { document: { url: dl_link}, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: m})
+    if (!isLimit) await conn.sendMessage(m.chat, { document: { url: dl_link}, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: m})
 
 }
 
