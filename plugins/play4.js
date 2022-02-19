@@ -128,9 +128,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                     quickReplyButton: {
 
-                        displayText: `📽 Video720P`,
+                        displayText: `More 🎶 `,
 
-                        id: `.ytv720 ${vid.url}`
+                        id: `.yts ${vid.url}`
 
                     },
 
