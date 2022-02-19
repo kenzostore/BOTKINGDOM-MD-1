@@ -130,7 +130,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 
                         displayText: `📽 Video720P`,
 
-                        id: `.yt720 ${vid.url}`
+                        id: `.ytv720 ${vid.url}`
 
                     },
 
