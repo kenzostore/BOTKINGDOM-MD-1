@@ -116,7 +116,7 @@ ${vid.url}
 
                displayText: 'AUDIO',
 
-               id: `.ytmp3 ${vid.url}`,
+               id: `.ytmp2 ${vid.url}`,
 
              }
 
