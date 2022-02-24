@@ -410,7 +410,7 @@ handler.help = ['menu']
 
 handler.tags = ['main']
 
-handler.command = /^(menu2)$/i
+handler.command = /^(menu)$/i
 
 handler.owner = false
 
