@@ -26,11 +26,11 @@ const defaultMenu = {
 
 ❑────❑ %me
 
-│✾ Version: %version
+│✾ Version: beta
 
-│✾ Library: Baileys-MD
+│✾ Library: Baileys
 
-│✾ Mode: ${global.opts['self'] ? 'Self' : 'publik'}
+│✾ Mode: ${global.opts['self'] ? 'Self' : 'public'}
 
 │✾ Runtime: %uptime
 
@@ -66,7 +66,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 
   if (teks == 'all') tags = {
 
-  'main': '*MENU UTAMA*',
+  'main': '*MENU ALL*',
 
   'advanced': '*ADVANCED*',
 
@@ -338,11 +338,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 
 let tulisan = `
 
-${ucapan()} ${name}. Have a great day！
+${ucapan()} ${name}. Have a nice day！
+welcome`.trim()
 
-Terimakasih Atas Kunjungan Anda`.trim()
-
-let sangek = `Berikut adalah list Menu Bot. klik pada "Click Here!" untuk melihat list menu.`
+let sangek = `CLICK HERE.`
 
 let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
 
@@ -372,7 +371,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
             title: `*Hai* ${name}👋`,
 
-            description: `${ucapan()}\n*SILAHKAN PILIH MENU*\n*DI BAWAH YA*`,
+            description: `${ucapan()}\n*WELCOME TO THE MENU*`,
 
             buttonText: 'LIST MENU',
 
@@ -388,11 +387,11 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
                 "rows": [{
 
-                  "title": `Pemilik Bot`,
+                  "title": `speed Bot`,
 
                   "description": "",
 
-                  "rowId": `.owner`
+                  "rowId": `.speedtest`
 
                 },{
 
@@ -410,7 +409,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
                 "rows": [{
 
-                  "title": `SEMUA PERINTAH`,
+                  "title": `All menu`,
 
                   "description": "",
 
@@ -716,7 +715,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
     let pp = fs.readFileSync('./src/welcome.jpg')
 
-    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '🅛=limit 🅟=premium', "📍Instagram", instagram, `Kembali Ke List Menu`, `.menu`, m)
+    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '🅛=limit 🅟=premium', "📍group", , `Kembali Ke List Menu`, `.menu`, m)
 
 } catch (e) {
 
@@ -732,7 +731,7 @@ handler.help = ['menu', 'help', '?']
 
 handler.tags = ['main']
 
-handler.command = /^(menu1234)$/i
+handler.command = /^(menu|help|\?)$/i
 
 handler.owner = false
 
@@ -772,31 +771,31 @@ function clockString(ms) {
 
 function ucapan() {
 
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Colombo').format('HH')
 
-  res = "Selamat dinihari🌃"
+  res = "WELCOME 🎶🌃"
 
   if (time >= 4) {
 
-    res = "Selamat pagi🏞️"
+    res = "සුභ උදෑසනක්🏞️"
 
   }
 
   if (time > 10) {
 
-    res = "Selamat siang🏙️"
+    res = "සුභ දහවලක්🏙️"
 
   }
 
   if (time >= 15) {
 
-    res = "Selamat sore🌇"
+    res = "සුභ සවසක්🌇"
 
   }
 
   if (time >= 18) {
 
-    res = "Selamat malam🌌"
+    res = "සුබ රාත්‍රියක්🌌"
 
   }
 
